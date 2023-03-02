@@ -68,7 +68,6 @@ body {
 	}
 
 	.nav-elements {
-		position: absolute;
 		right: 0;
 		top: 60px;
 		background-color: #000000;
@@ -99,7 +98,6 @@ body {
 	}
 
 	.nav-elements {
-		position: absolute;
 		right: 0;
 		top: 60px;
 		background-color: #000000;
@@ -127,7 +125,6 @@ body {
 /* Hero section */
 
 .HeroSection {
-	position: absolute;
 	display: flex;
 
 	width: 100%;
@@ -187,4 +184,59 @@ body {
 		width: 100%;
 		height: auto;
 	}
+}
+/* SecondPart */
+.SecondPart {
+	width: 100%;
+	height: 669px;
+}
+.SecondPart h2 {
+	font-family: 'Quesha Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 75px;
+	color: #ffffff;
+}
+.SecondPart p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing: 0.1px;
+}
+.grid {
+	display: flex;
+}
+.leftGrid {
+	width: 30%;
+	height: 536px;
+	left: 155px;
+	top: 926px;
+	text-align: right;
+}
+
+.leftGrid div {
+	width: 50%;
+	margin-left: auto;
+	margin-right: 0;
+	padding-right: 70px;
+}
+
+.grid div img {
+	width: 100%;
+	height: 546px;
+}
+.rightGrid {
+	width: 30%;
+	height: 536px;
+	left: 1068px;
+	top: 926px;
+	text-align: left;
+}
+.rightGrid div {
+	width: 50%;
+	margin-left: 0;
+	margin-right: auto;
+	padding-left: 70px;
 }
