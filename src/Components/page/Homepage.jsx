@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from '../Navbar';
 import HeroSection from '../HeroSection';
 import SecondPart from '../SecondPart';
+import ThirdPart from '../ThirdPart';
+import Footer from '../Footer';
 
 const Homepage = () => {
 	return (
@@ -9,6 +11,8 @@ const Homepage = () => {
 			<Navbar />
 			<HeroSection />
 			<SecondPart />
+			<ThirdPart />
+			<Footer />
 		</>
 	);
 };

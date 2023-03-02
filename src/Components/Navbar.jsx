@@ -14,7 +14,7 @@ const Navbar = () => {
 
 	return (
 		<nav className='navbar'>
-			<div className='container'>
+			<div className='NavContainer'>
 				<div
 					className='menu-icon'
 					onClick={handleShowNavbar}

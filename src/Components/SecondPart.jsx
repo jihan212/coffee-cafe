@@ -5,7 +5,7 @@ const SecondPart = () => {
 	return (
 		<div className='SecondPart'>
 			<h2>Providing Unique Coffee Experiences</h2>
-			<div className='grid'>
+			<div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
 				<div className='leftGrid'>
 					<div>
 						<h1>Coffee Shop</h1>
@@ -29,7 +29,7 @@ const SecondPart = () => {
 						</p>
 					</div>
 				</div>
-				<div>
+				<div className='imgGrid'>
 					<img
 						src={Frame}
 						alt=''
