@@ -2,8 +2,6 @@
 
 @font-face {
 	font-family: 'Quesha Regular';
-	font-style: normal;
-	font-weight: normal;
 	src: local('Quesha Regular'), url('fonts/Quesha.woff') format('woff');
 }
 
@@ -14,7 +12,7 @@ body {
 	width: 100%;
 	height: 100vh;
 	text-align: center;
-	color: white;
+	color: #fff;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -44,9 +42,6 @@ body {
 }
 .menu-icon {
 	display: none;
-}
-
-.nav-elements {
 }
 
 .nav-elements ul {
@@ -126,5 +121,70 @@ body {
 	.nav-elements ul li {
 		margin-right: unset;
 		margin-top: 22px;
+	}
+}
+
+/* Hero section */
+
+.HeroSection {
+	position: absolute;
+	display: flex;
+
+	width: 100%;
+	height: 568px;
+	margin-left: -12px;
+	margin-top: 30px;
+}
+
+.heroText {
+	width: 508px;
+	left: 0px;
+	top: 140px;
+	background-color: #fff;
+}
+.heroText div {
+	width: 384px;
+	height: 308px;
+	margin-left: 62px;
+	text-align: left;
+	color: #000;
+}
+.heroText img {
+	margin-left: -0.83%;
+	margin-right: 90.76%;
+}
+.heroText h1 {
+	font-family: 'Quesha Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 90px;
+	line-height: 75px;
+}
+.heroText p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing: 0.1px;
+}
+
+.heroImage {
+	width: 932px;
+}
+@media (max-width: 600px) {
+	.HeroSection {
+		display: flex;
+		flex-direction: column;
+	}
+	.heroText {
+		width: 600px;
+	}
+	heroImage {
+		width: 600px;
+	}
+
+	.heroImage img {
+		width: 100%;
+		height: auto;
 	}
 }
