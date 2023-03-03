@@ -20,7 +20,7 @@ const Homepage = () => {
 			<FifthPart />
 			<SixthPart />
 			<SeventhPart />
-			{/* <Footer /> */}
+			<Footer />
 		</>
 	);
 };

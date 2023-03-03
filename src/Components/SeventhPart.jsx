@@ -10,7 +10,7 @@ import coffeeEight from '../images/coffeeEight.png';
 
 const SeventhPart = () => {
 	return (
-		<div className='SeventhPart mt-10'>
+		<div className='SeventhPart mt-10 mb-5'>
 			<h2 className='mb-10'>Coffee Moments</h2>
 			<div>
 				<div class='grid grid-cols-3 flex items-center justify-center'>
