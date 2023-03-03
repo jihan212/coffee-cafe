@@ -5,8 +5,8 @@ import offer from '../images/offer.png';
 
 const SixthPart = () => {
 	return (
-		<div className='mt-10 mx-1'>
-			<div class='flex '>
+		<div className=' mt-10 mx-1'>
+			<div class='flex items-center justify-center h-screen'>
 				<div class='w-1/3 col-span-img'>
 					<img
 						src={play}

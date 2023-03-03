@@ -6,6 +6,7 @@ import ThirdPart from '../ThirdPart';
 import FourthPart from '../FourthPart';
 import FifthPart from '../FifthPart';
 import SixthPart from '../SixthPart';
+import SeventhPart from '../SeventhPart';
 import Footer from '../Footer';
 
 const Homepage = () => {
@@ -18,6 +19,7 @@ const Homepage = () => {
 			<FourthPart />
 			<FifthPart />
 			<SixthPart />
+			<SeventhPart />
 			{/* <Footer /> */}
 		</>
 	);

@@ -378,6 +378,14 @@ p {
 	text-align: left;
 }
 
+/* SeventhPart */
+.SeventhPart h2 {
+	font-family: 'Quesha Regular';
+	font-size: 70px;
+	line-height: 75px;
+	text-align: center;
+}
+
 /* Footer */
 .footer img {
 	width: 1440px;
