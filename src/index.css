@@ -168,7 +168,9 @@ body {
 	line-height: 25px;
 	letter-spacing: 0.1px;
 }
-
+.heroText button {
+	background-color: #a35715;
+}
 .heroImage {
 	width: 932px;
 }
