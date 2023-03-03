@@ -4,6 +4,7 @@ import HeroSection from '../HeroSection';
 import SecondPart from '../SecondPart';
 import ThirdPart from '../ThirdPart';
 import FourthPart from '../FourthPart';
+import FifthPart from '../FifthPart';
 import Footer from '../Footer';
 
 const Homepage = () => {
@@ -14,6 +15,7 @@ const Homepage = () => {
 			<SecondPart />
 			<ThirdPart />
 			<FourthPart />
+			<FifthPart />
 			{/* <Footer /> */}
 		</>
 	);
