@@ -3,6 +3,7 @@ import Navbar from '../Navbar';
 import HeroSection from '../HeroSection';
 import SecondPart from '../SecondPart';
 import ThirdPart from '../ThirdPart';
+import FourthPart from '../FourthPart';
 import Footer from '../Footer';
 
 const Homepage = () => {
@@ -12,7 +13,8 @@ const Homepage = () => {
 			<HeroSection />
 			<SecondPart />
 			<ThirdPart />
-			<Footer />
+			<FourthPart />
+			{/* <Footer /> */}
 		</>
 	);
 };
