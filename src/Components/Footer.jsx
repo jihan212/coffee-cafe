@@ -9,17 +9,25 @@ import insta from '../images/insta.png';
 import twitter from '../images/twitter.png';
 import pinterest from '../images/pinterest.png';
 import youtube from '../images/youtube.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
+	const scrollToTop = () => {
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth',
+		});
+	};
+
 	return (
 		<footer className='mt-12 pb-12'>
-			<div>
+			<button onClick={scrollToTop}>
 				<img
 					src={footer}
 					alt=''
 				/>
 				<p className='footerP mx-auto my-5'>Go To Top</p>
-			</div>
+			</button>
 			<div className='m-10 flex'>
 				<div className='mx-5 flex items-center justify-center'>
 					<img
@@ -36,31 +44,41 @@ const Footer = () => {
 					</p>
 				</div>
 				<div className='mx-5 h-full grid grid-cols-5 gap-1 flex items-center justify-center'>
-					<img
-						src={facebook}
-						alt=''
-					/>
-					<img
-						src={insta}
-						alt=''
-					/>
-					<img
-						src={twitter}
-						alt=''
-					/>
-					<img
-						src={pinterest}
-						alt=''
-					/>
-					<img
-						src={youtube}
-						alt=''
-					/>
+					<Link to='http://www.facebook.com'>
+						<img
+							src={facebook}
+							alt=''
+						/>
+					</Link>
+					<Link to='http://www.instagram.com'>
+						<img
+							src={insta}
+							alt=''
+						/>
+					</Link>
+					<Link to='http://www.twitter.com'>
+						<img
+							src={twitter}
+							alt=''
+						/>
+					</Link>
+					<Link to='http://www.pinterest.com'>
+						<img
+							src={pinterest}
+							alt=''
+						/>
+					</Link>
+					<Link to='http://www.youtube.com'>
+						<img
+							src={youtube}
+							alt=''
+						/>
+					</Link>
 				</div>
 			</div>
 			<div className='grid grid-cols-3 gap-4 w-full'>
-				<a
-					href='/'
+				<Link
+					to='+1234567890'
 					className='flex w-1/3 flex items-center justify-center'
 				>
 					<img
@@ -68,9 +86,9 @@ const Footer = () => {
 						alt=''
 					/>
 					<span className='ml-2'>+1234567890</span>
-				</a>
-				<a
-					href='/'
+				</Link>
+				<Link
+					to='https://map.google.com'
 					className='flex w-1/3 flex items-center justify-center'
 				>
 					<img
@@ -78,9 +96,9 @@ const Footer = () => {
 						alt=''
 					/>
 					<span className='ml-2'>Bashundhara R/A, Dhaka</span>
-				</a>
-				<a
-					href='/'
+				</Link>
+				<Link
+					to='freshlycafe@support.com'
 					className='flex w-1/3 flex items-center justify-center'
 				>
 					<img
@@ -88,7 +106,7 @@ const Footer = () => {
 						alt=''
 					/>
 					<span className='ml-2'>freshlycafe@support.com</span>
-				</a>
+				</Link>
 			</div>
 		</footer>
 	);
